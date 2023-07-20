@@ -63,7 +63,6 @@ a {
 .main-section {
     display:flex;
     background: url(<path-to-image>), lightgray 50% / cover no-repeat;
-    
 }
 .welcome {
     position: absolute;
@@ -87,7 +86,7 @@ a {
 }
  .section-title {
     text-align: center;
-    margin: 20px 0;
+    margin: 21px 0px 20px 1px;
     color: #0C0C0E;
     font-family: Forum;
     font-size: 40px;
@@ -198,7 +197,7 @@ hr {
     flex-wrap: wrap;
     justify-content: space-between;
     margin: 0px 60px 0px 20px;
-}
+  }
 .book {
     display: flex;
     width: 50%;
@@ -209,7 +208,7 @@ hr {
     background: #FFF;
     padding: 1px;
     margin-bottom: 40px;
-}
+  }
 .book>img {
     position: relative;
     top: 253px;
@@ -240,7 +239,7 @@ hr {
     width: 60px;
     padding-top: 0px;
     border-bottom: 1px solid #BB945F;
-}
+  }
 .book-title {
     color: #000;
     font-family: Inter;
@@ -304,3 +303,119 @@ form>.own {
     border-radius: 2px;
     border: 1px solid #BB945F;
 }
+.section-coffee{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 20px 40px 20px;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.coffee-menu{
+    display: flex;
+    width: 50%;
+    gap: 480px;
+}
+
+.title-coffee {
+    margin-top: 0;
+    margin-bottom: 9px;
+}
+.drinks {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 438px;
+    height: 520px;
+    flex-shrink: 0;
+}
+.deserts {
+    display: flex;
+    width: 482px;
+    height: 520px;
+    flex-shrink: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+.menu-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; 
+    gap: 58px;
+}
+
+.menu-position {
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 200% */
+    letter-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.coffee-info {
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 200% */
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    margin-top: 33px;
+}
+
+.text-coffee {
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-transform: lowercase;
+}
+.Y {
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.coffee-menu-title {
+    color: #BB945F;
+    font-family: Forum;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 100% */
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    margin: 60px 0px 20px 0px ;
+    align-items: flex-start;
+}
+.price {
+    color: #000;
+    font-family: Forum;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 200% */
+    letter-spacing: 2px;
+    text-transform: capitalize;
+}
+.menu-line{
+    width: 100px;
+    height: 1px;
+    background: #BB945F;
+    margin-right: 0;
+}
+
