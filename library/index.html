@@ -17,11 +17,11 @@
         <div class="container">
             <nav class="nav nav-header">
                 <ul class="nav-list">
-                    <li class="nav-item"><a href="#About" class="nav-link">About</a></li>
-                    <li class="nav-item"><a href="#Favorites" class="nav-link">Favorites</a></li>
-                    <li class="nav-item"><a href="#Coffe-shop" class="nav-link">Coffee shop</a></li>
-                    <li class="nav-item"><a href="#Contacts" class="nav-link">Contacts</a></li>
-                    <li class="nav-item"><a href="#Library-Card" class="nav-link">Library Card</a></li>
+                    <li class="nav-item item-nav"><a href="#About" class="nav-link">About</a></li>
+                    <li class="nav-item item-nav"><a href="#Favorites" class="nav-link">Favorites</a></li>
+                    <li class="nav-item item-nav"><a href="#Coffee-shop" class="nav-link">Coffee shop</a></li>
+                    <li class="nav-item item-nav"><a href="#Contacts" class="nav-link">Contacts</a></li>
+                    <li class="nav-item item-nav"><a href="#Library-Card" class="nav-link">Library Card</a></li>
                 </ul>
             </nav>
         </div>
@@ -47,11 +47,11 @@
                     <img src="./assets/img/image-2.jpg" alt="image-2">
                     <img src="./assets/img/image-3.jpg" alt="image-3">
                 </div>
-                <svg class="carusel" width="68" height="16" viewBox="0 0 68 16" fill="none">
-                    <rect width="16" height="16" rx="8" fill="#BB945F"/>
-                    <rect x="26" width="16" height="16" rx="8" fill="#0C0C0E"/>
-                    <rect x="52" width="16" height="16" rx="8" fill="#0C0C0E"/>
-                </svg>
+                <div class="dots">
+                    <span class="dots_item" onclick="currentSlide(1)"></span>
+                    <span class="dots_item" onclick="currentSlide(2)"></span>
+                    <span class="dots_item" onclick="currentSlide(3)"></span>
+                </div>
             </div>
         </section>
         <section class="section section-favorites" id="Favorites">
@@ -119,7 +119,7 @@
                         <p class="book-title"><span>The Last Queen</span><br> By Clive Irving</p>
                         <p class="book-description">A timely and revelatory new biography of Queen Elizabeth (and her family) exploring how the Windsors have evolved and thrived as the modern world has changed around them.</p>
                         <form action="/zhenyakhomich-JSFEPRESCHOOL2023Q2/library/assets/img/book-4.jpg" class="button">
-                            <button class="buy own">Own</button>
+                            <button class="own" disabled>Own</button>
                         </form> 
                     </div>
                     <img src="./assets/img/book-4.jpg" alt="book-4">
@@ -199,20 +199,20 @@
                 </div>
             </div>
         </section>
-        <section class="section" id="Contscts">
+        <section class="section" id="Contacts">
             <h2 class="section-title">Our Contacts</h2>
             <hr>
             <div class="contact-info">
                 <div class="contact-info-text">
                     <div class="contact-info-1">
                         <p class="contact-info-1-title">For all Library inquiries:</p>
-                        <p class="contact-info-1-1">Please call (617) 730-2370</p>
-                        <p class="contact-info-1-1">For TTY service, please call (617) 730-2370</p>
-                        <p class="contact-info-1-1">Putterham Library: (617) 730-2385</p>
+                        <p class="contact-info-1-1">Please call <a href="tel:(617)730-2370">(617) 730-2370</a></p>
+                        <p class="contact-info-1-1">For TTY service, please call <a href="tel:(617)730-2370">(617) 730-2370</a></p>
+                        <p class="contact-info-1-1">Putterham Library: <a href="tel:(617)730-2385">(617) 730-2385</a></p>
                     </div>
                     <div class="contact-info-2">
                         <p class="contact-info-2-title">Senior Staff</p>
-                        <p class="contact-info-1-1">Library Director: <b>Amanda Hirst</b></p>
+                        <p class="contact-info-1-1">Library Director: <b><a href="mailto:AmandaHirst@gmail.com">Amanda Hirst</a></b></p>
                     </div>
                 </div>
                 <img src="./assets/img/Rectangle-4.jpg" alt="map" class="map">
@@ -249,10 +249,10 @@
       </div>  
     </main>
     <footer class="footer">
-        <div class="container">
+        <div class="container section">
             <div class="info">
                 <div class="info-1">
-                    <p class="adress">286 Cadman Plaza, New York, NY 11238, United States</p>
+                    <p class="adress"><a href="https://goo.gl/maps/su2sdWWmLTtnTLQ78">286 Cadman Plaza, New York, NY 11238, United States</a></p>
                     <p class="work-time">Mon - Fri<br> 08:00 am - 07:00 pm</p>
                 </div>
                 <div class="info-2">
