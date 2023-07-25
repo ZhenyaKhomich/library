@@ -789,12 +789,11 @@ input[type=text] {
     align-items: flex-start;
     gap: 15px;
     padding: 0px;
-    margin-left: 2px;
+    margin-left: 1px;
 }
 .rss{
     display: flex;
     width: 1440px;
-    height: 250px;
     justify-content: space-between;
-    margin: 0px 20px 0px 20px;
+    margin: 0px 20px 0px 19px;
 }
