@@ -8,6 +8,32 @@ body {
     max-width: 1440px;
     margin: 0 auto;
 }
+.page{
+    margin: 0 auto;
+}
+
+@media (max-width: 1440px) {
+    .page {width: 1024px;
+        
+    }
+    
+}
+
+@media (max-width: 1024px) {
+    .page {width: 768px;
+    }
+}
+
+@media (max-width: 768px) {
+    .page {width: 640px;
+    }
+}
+
+@media (max-width: 640px) {
+    .page {width: none;
+    }
+}
+
 * {
     box-sizing: border-box;
 }
