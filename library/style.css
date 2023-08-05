@@ -12,28 +12,6 @@ body {
     margin: 0 auto;
 }
 
-@media (max-width: 1440px) {
-    .page {width: 1024px;
-        
-    }
-    
-}
-
-@media (max-width: 1024px) {
-    .page {width: 768px;
-    }
-}
-
-@media (max-width: 768px) {
-    .page {width: 640px;
-    }
-}
-
-@media (max-width: 640px) {
-    .page {width: none;
-    }
-}
-
 * {
     box-sizing: border-box;
 }
@@ -44,7 +22,10 @@ body {
 html {
    scroll-behavior: smooth;
 }
-.header {
+.page {
+    width: 1440px; 
+}
+.container-head {
     display: flex;
     background: #0C0C0E;
     width: 1440px;
@@ -176,7 +157,7 @@ a {
 }
 .section-favorites {
     width: 1440px;
-    height: 1439px;
+    
     margin: 56px 0 0 0;
 }
 .dots_item:hover, .dot:hover{
@@ -389,9 +370,10 @@ form>.own {
     display: flex;
     flex-direction: column;
     padding: 0px 20px 40px 20px;
-    margin-bottom: 40px;
+    margin: 20px 20px 40px 0px;
     flex-wrap: wrap;
     justify-content: space-between;
+    
 }
 .coffee-menu{
     display: flex;
@@ -450,6 +432,7 @@ form>.own {
     margin-top: 32px;
     margin-left: 3px;
 }
+.our{margin: 0px 0px 0px 8px;}
 .text-coffee {
     color: #000;
     font-family: Inter;
@@ -505,7 +488,7 @@ form>.own {
 }
 .contact-info {
     display: flex;
-    width: 1440px;
+    widt: 1440px;
     padding: 20px 20px 40px 20px;
     justify-content: space-between;
     gap: 199px;
@@ -618,7 +601,7 @@ form>.own {
 }
 .check-card:hover {
     background-color:#BB945F;
-    
+    border: 1px solid #BB945F;
     transition: background-color 1s ease;
 }
 input[type=text] {
@@ -819,6 +802,9 @@ input[type=text] {
     gap: 1147px;
     margin: -20px 20px 20px 20px;
 }
+.info-2>ul>li{
+    list-style-type: none;
+  }
 
 .nav-list-footer{
     display: flex;

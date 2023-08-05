@@ -1,0 +1,195 @@
+@media (max-width: 1440px) {
+    .page {width: 1024px;
+    }
+    
+}
+
+@media (max-width: 1024px) {
+    .page {width: 768px;
+    }
+    .section {
+        width: 100%;
+    }
+    .container-head{
+        display: flex;
+        width: 768px;
+        height: 90px;
+        padding: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+    .brooclin-head{
+        color: #FFF;
+        font-family: Forum;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 50px; /* 166.667% */
+        letter-spacing: 0.6px;
+        margin: 22px auto 20px 0px;
+    }
+   .main-section>img{
+        width: 768px;
+        height: 600px;
+    }
+   .nav-list {
+        display: none;
+    }
+    .main-section {
+    display:flex;
+    background: none;}
+
+.icon-profile {
+        margin: 31px 85px 31px 40px;
+    }
+    .section-about{
+        width: 768px;
+    }
+
+    .section-description{
+        color: #000;
+        text-align: center;
+        font-family: Inter;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 40px; /* 200% */
+        margin: 40px 40px 20px;
+    }
+    .img-about {
+        margin: 0px 0px 0px 0px;
+    }
+    .dots {
+        margin: 20px 0px 0px 0px;
+    }
+    .section-favorites{
+        margin: 54px 0px 0px 0px;}
+    .pick-div {
+        margin: 2px 0px 0px 0px; 
+    }
+    .books{
+        margin: 0px 0px 0px 90px;
+    }
+    .book{
+        margin: 0px 0px 40px -1px;
+    }
+    .section-coffee{ 
+        margin: 21px 0px 4px -2px;
+    }
+    .coffee-info {
+        width: 728px;   
+    }
+    .Y {
+        margin: 0px 0px 0px -1px;
+    }
+    .our{
+        margin: 0px 0px 0px 8px;
+    }
+    .coffee-menu{
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+    .drinks {
+        margin: 0px 0px 0px 2px;
+    }
+    .deserts {
+        margin: 0px 0px 20px 248px;
+    }       
+    .our-contacts{
+        margin: 0px 0px 0px 1px;
+    } 
+    .contact-info{
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+    }
+    .map {
+        margin: 80px 0px 0px 15px;
+    }
+    .library-cards{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: -1px 0px 0px -18px;
+      }  
+    
+    .get-card {
+        align-items: center;
+        text-align: center;
+        margin: 22px 0px 0px 22px;
+    }
+    .get-info {
+        width: 600px; 
+        align-items: center;
+        text-align: center;
+        margin: 40px 0px 0px 0px;
+    }
+    .sign-log{
+        margin: 5px 0px 0px -15px;
+    }
+    .sign{
+    padding: 0px 2px 0px 0px;
+    }
+    .footer{
+        display: flex;
+        width: 768px;
+        height: 250px;
+        padding: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+    .info{
+        margin: -45px 0px 0px -21px; 
+    }
+    .info-2{
+        display: flex;
+        width: 730px;
+        justify-content: center;
+        align-items: center;
+        gap: 478px;
+    }
+    .info-1 {
+        display: flex;
+        width: 730px;
+        justify-content: center;
+        align-items: center;
+        gap: 352px;
+    }
+    .footer-line {
+    width: 728px;
+    height: 1px;  
+    }
+    .rss{
+    display: flex;
+    width: 728px;
+    justify-content: space-between;
+    align-items: center;
+    }
+    .year{
+    margin: 37px 0px 0px -18px;   
+    }
+    .rschool{
+    margin: 37px 0px 0px 85px;
+    }
+    .name{
+    padding: 0px 0px 0px 21px;
+    }
+ }
+      
+        
+
+
+
+
+
+
+@media (max-width: 767px) {
+    .page {width: 640px;
+    }
+}
+
+@media (max-width: 640px) {
+    .page {width: none;
+    }
+}
