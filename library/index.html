@@ -19,7 +19,7 @@
             <div class="container-head">
                 <h1 class="brooclin-head">Brooklyn Public Library</h1>
             <div class="container">
-                <nav class="nav nav-header">
+                <nav class="nav nav-header" id="menu-burger">
                     <ul class="nav-list">
                         <li class="nav-item item-nav"><a href="#About" class="nav-link">About</a></li>
                         <li class="nav-item item-nav"><a href="#Favorites" class="nav-link">Favorites</a></li>
@@ -32,13 +32,19 @@
             <svg class="icon-profile" width="28" height="28" viewBox="0 0 28 28" fill="none">
                 <path fill-rule="evenodd" clip-rule="evenodd" d="M28 14C28 21.732 21.732 28 14 28C6.26801 28 0 21.732 0 14C0 6.26801 6.26801 0 14 0C21.732 0 28 6.26801 28 14ZM18.6667 7.77778C18.6667 10.3551 16.5774 12.4444 14.0001 12.4444C11.4227 12.4444 9.33339 10.3551 9.33339 7.77778C9.33339 5.20045 11.4227 3.11111 14.0001 3.11111C16.5774 3.11111 18.6667 5.20045 18.6667 7.77778ZM19.4998 16.2781C20.9584 17.7367 21.7778 19.715 21.7778 21.7778H14L6.22225 21.7778C6.22225 19.715 7.0417 17.7367 8.50031 16.2781C9.95893 14.8194 11.9372 14 14 14C16.0628 14 18.0411 14.8194 19.4998 16.2781Z" fill="white"/>
             </svg>
+            <button class="burger-menu" id="burger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
             </div>
             
         </header>
         <main class="main ">
           <div class="container">
             <section class="section main-section" id="section-welcome">
-                <img src="./assets/img/Welcome.png" alt="image">
+                <img src="./assets/img/Welcome.png" alt="image" class="welcome-img-1">
+                <img src="./assets/img/Welcome2.png" alt="image" class="welcome-img-2">
                 <h3 class="welcome">Welcome&nbsp;<br>
                 to the Brooklyn Library
                 </h3>
@@ -49,23 +55,48 @@
                     <hr>
                     <p class="section-description">The Brooklyn Library is a free workspace, a large number of books and a cozy coffee shop inside </p>
                     <div class="img-about">
-                        <img src="./assets/img/image-1.jpg" alt="image-1">
-                        <img src="./assets/img/image-2.jpg" alt="image-2">
-                        <img src="./assets/img/image-3.jpg" alt="image-3">
+                        <div class="mySlides fade slide-1">
+                            <img src="./assets/img/image-1.jpg" alt="image-1">
+                        </div>
+                        <div class="mySlides fade slide-2">
+                            <img src="./assets/img/image-2.jpg" alt="image-2">
+                        </div>
+                        <div class="mySlides fade slide-3">
+                            <img src="./assets/img/image-3.jpg" alt="image-3">
+                        </div>
+                        <div class="mySlides fade slide-4">
+                            <img src="./assets/img/image-4.jpg" alt="image-4">
+                        </div>
+                        <div class="mySlides fade slide-5">
+                            <img src="./assets/img/image-5.jpg" alt="image-5">
+                        </div>
+                        <a class="prev" onclick="minusSlides(-1)">&#10094</a>
+                        <a class="next" onclick="plusSlides(1)">&#10095</a>
                     </div>
                     <div  class="dots">
                         <label class="dots_item">
                             <input checked type="radio" name="carusel">
-                            <span class="dot"></span>
+                            <span class="dot" onclick="currentSlide(1)"></span>
                         </label>
                         <label class="dots_item">
                             <input type="radio" name="carusel">
-                            <span class="dot"></span>
+                            <span class="dot" onclick="currentSlide(2)"></span>
                         </label>
                         <label class="dots_item">
                             <input type="radio" name="carusel">
-                            <span class="dot"></span>
+                            <span class="dot" onclick="currentSlide(3)"></span>
                         </label>
+                        <div class="dots-4-5">
+                            <label class="dots_item">
+                                <input type="radio" name="carusel">
+                                <span class="dot" onclick="currentSlide(4)"></span>
+                            </label>
+                            <label class="dots_item">
+                                <input type="radio" name="carusel">
+                                <span class="dot" onclick="currentSlide(5)"></span>
+                            </label>
+                        </div>
+                        
                     </div>
                 </div>
             </section>
@@ -135,6 +166,9 @@
                             <p class="book-description">A timely and revelatory new biography of Queen Elizabeth (and her family) exploring how the Windsors have evolved and thrived as the modern world has changed around them.</p>
                             <form action="/zhenyakhomich-JSFEPRESCHOOL2023Q2/library/assets/img/book-4.jpg" class="button">
                                 <button class="own" disabled>Own</button>
+                            </form> 
+                            <form action="/zhenyakhomich-JSFEPRESCHOOL2023Q2/library/assets/img/book-3.jpg" class="button">
+                                <button class="buy buy-oun">Buy</button>
                             </form> 
                         </div>
                         <img src="./assets/img/book-4.jpg" alt="book-4">

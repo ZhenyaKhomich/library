@@ -6,6 +6,9 @@
 
 @media (max-width: 1024px) {
     .page {width: 768px;
+        overflow: hidden;
+        position: relative;
+        height: 100%;  
     }
     .section {
         width: 100%;
@@ -17,6 +20,81 @@
         padding: 20px;
         justify-content: center;
         align-items: center;
+    }
+    .icon-profile{
+        z-index: 1; 
+    }
+    .nav-header{
+        position: absolute;
+        top: 0;
+        right: -332px;
+        width: 332px;
+        height: 570px;
+        background: rgb(0, 0, 0); 
+        visibility: hidden;
+        z-index: 1;
+        text-align: center;
+        padding: 100px 0px 0px 0px;
+        transition: transform .5s, visibility .5s;/* меню выдвигается плавно*/
+    }
+    .burger-menu>span {
+        position: absolute;
+        width: 45px;
+        height: 2px;
+        background-color: #FFF;
+        left: 0px;
+        transition: opacity .10s, transform .5s;
+   }
+    .burger-menu:hover span {
+        cursor: pointer;
+        background-color: coral;
+    }
+
+    .burger-menu:hover {
+        cursor: pointer;
+   }
+
+/* Полоски в бугрер меню */
+    .burger-menu>span:nth-child(1){
+        transform: translateY(-10px);
+    }
+        .burger-menu>span:nth-child(2){
+    }
+        .burger-menu>span:nth-child(3){
+        transform: translateY(10px);
+    }
+
+/* Крестик */
+        .header.open .burger-menu>span:nth-child(1){
+        transform: translateY(0) rotate(45deg);
+    }
+        .header.open .burger-menu>span:nth-child(2){
+        opacity: 0;
+    }
+        .header.open .burger-menu>span:nth-child(3){
+        transform: translateY(0) rotate(-45deg);
+    }
+        .header.open .nav-header{
+        transform: translateX(-100%);
+        visibility: visible;
+    }
+/* сдвиг иконки и крестика при выдвижении бургер меню*/
+       .header.open .icon-profile{
+        margin: 0px 32px 0px 0px;
+    }
+        .header.open .burger-menu {
+        margin: 0px -6px 0px 0px;
+}
+    .nav-list {
+        display:block;
+        display: inline-flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+    .burger-menu{
+        display: block;
     }
     .brooclin-head{
         color: #FFF;
@@ -32,20 +110,22 @@
         width: 768px;
         height: 600px;
     }
-   .nav-list {
+    .welcome-img-2 {
+        display: block;
+    }
+    .welcome-img-1 {
         display: none;
     }
     .main-section {
     display:flex;
-    background: none;}
-
+    background: none;
+    }
 .icon-profile {
-        margin: 31px 85px 31px 40px;
+        margin: 31px 40px 31px 40px;
     }
     .section-about{
         width: 768px;
     }
-
     .section-description{
         color: #000;
         text-align: center;
@@ -56,12 +136,71 @@
         line-height: 40px; /* 200% */
         margin: 40px 40px 20px;
     }
-    .img-about {
-        margin: 0px 0px 0px 0px;
+    .slide-4, .slide-5, .prev, .next{
+        display: flex;
     }
+    
+    /*создаем слайд-шоу*/
+    .img-about {
+        max-width: 768px;
+        position: relative;
+        margin: 0 auto;
+        
+    }
+    .fade{
+        margin: 0px 0px 0px 159px
+    }
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    margin-top: -17px;
+    padding: 16px;
+    color: #000000;
+    font-weight: bold;
+    font-size: 30px;
+    transition: 0.6s ease;
+    border-radius: 0px 3px 3px 0px;
+}
+.prev:hover, .next:hover{
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.next {
+    right: 82px;
+   
+}
+.prev {
+    left: 82px;
+}
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-direction: 1.5s;
+    animation-name: fade;
+    animation-name: 1.5s;
+}
+@-webkit-keyframes fade{
+    from{opacity: .4;}
+    to{opacity: 1;}
+}
+@keyframes fade{
+    from{opacity: .4;}
+    to{opacity: 1;}
+}
+
+
+
     .dots {
         margin: 20px 0px 0px 0px;
     }
+
+    .dots-4-5 {
+        display: flex;
+        ;
+    }
+
+    
+
+
     .section-favorites{
         margin: 54px 0px 0px 0px;}
     .pick-div {
@@ -72,6 +211,12 @@
     }
     .book{
         margin: 0px 0px 40px -1px;
+    }
+    .buy-oun{
+        display: block;
+    }
+    .own{
+        display: none;
     }
     .section-coffee{ 
         margin: 21px 0px 4px -2px;
