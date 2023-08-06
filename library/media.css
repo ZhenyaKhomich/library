@@ -1,15 +1,253 @@
 @media (max-width: 1440px) {
     .page {width: 1024px;
+        overflow: hidden;
+        position: relative;
+        height: 100%;
     }
+    .section {
+        width: 100%;
+    }
+    .container-head{
+        display: flex;
+        width: 1024px;
+        height: 90px;
+        padding: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+    .icon-profile{
+        z-index: 1; 
+    }
+
+    .nav-list {
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+    }
+    .nav-item > a {
+        font-size: 20px;
+    }
+    .brooclin-head{
+        color: #FFF;
+        font-family: Forum;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 50px; /* 166.667% */
+        letter-spacing: 0.6px;
+        margin: 22px auto 20px 0px;
+    }
+   .main-section>img{
+        width: 1024px;
+        height: 600px;
+    }
+    .welcome-img-2 {
+        display: none;
+    }
+    .welcome-img-1 {
+        display: block;
+    }
+    .main-section {
+    display:flex;
+    background: none;
+    }
+    .section-about{
+        width: 1024px;
+    }
+    .img-about {
+        max-width: 1024px;
+        position: relative;
+        margin: 0 auto;
+    }
+    .fade>img{
+        width: 330px;
+        height: 460px;
+    }
+    .dots {
+        margin: 20px 0px 0px 0px;
+    }
+    .section-description{
+        color: #000;
+        text-align: center;
+        font-family: Inter;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 40px; /* 200% */
+        margin: 40px 40px 20px;
+    }
+    .section-favorites{
+        margin: 54px 0px 0px 0px;
+    }
+    .pick-div {
+        margin: 2px 0px 0px 0px; 
+    }
+    .books {
+        justify-content: space-around;
+        margin: 0px;
+      }
+    .book {
+        width: 400px;
+        height:500px;
+        
+      }
+    .book>img {
+        top: 285px;
+        left: -10px;
+        width: 43%;
+        height: 43%;
+    }
+    .title-4{ 
+        width: 290px;
+    }
+    .book-description {
+        width: 270px;
+        color: #000;
+        font-family: Inter;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px; /* 266.667% */
+        letter-spacing: 1px;
+        text-transform: capitalize;
+        margin: 0px 15px auto 18px;
+    }
+    .buy-oun{
+        display: block;
+    }
+    .own{
+        display: none;
+    }
+    .section-coffee{ 
+        margin: 21px 0px 4px -2px;
+    }
+    .coffee-info {
+        width: 1024px;
+        padding: 0px 30px 0px 35px; 
+        margin: 32px 0px 20px 3px;  
+    }
+    .text-coffee{
+        margin: 0px 30px 0px 10 px;
+    }
+    .Y {
+        margin: 0px 0px 0px -1px;
+    }
+    .our{
+        margin: 0px 0px 0px 8px;
+    }
+    .coffee-menu{
+        
+        justify-content: space-between;
+        gap: 60px;
+        
+    }
+    .drinks {
+        margin: 0px 0px 0px 2px;
+    }
+    .deserts {
+        margin: 0px auto 20px;
+    }       
+    .our-contacts{
+        margin: 0px 0px 0px 1px;
+    } 
+    .contact-info{
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+    }
+    .map {
+        margin: 80px 0px 0px 15px;
+    }
+    .library-cards{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: -1px 0px 0px -18px;
+      }  
+    
+    .get-card {
+        align-items: center;
+        text-align: center;
+        margin: 22px 0px 0px 22px;
+    }
+    .get-info {
+        width: 600px; 
+        align-items: center;
+        text-align: center;
+        margin: 40px 0px 0px 0px;
+    }
+    .sign-log{
+        margin: 5px 0px 0px -15px;
+    }
+    .sign{
+    padding: 0px 2px 0px 0px;
+    }
+    .footer{
+        display: flex;
+        width: 1024px;
+        height: 250px;
+        padding: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+    .info{
+        margin: -45px 0px 0px -21px; 
+    }
+    .info-2{
+        display: flex;
+        width: 730px;
+        justify-content: center;
+        align-items: center;
+        gap: 478px;
+    }
+    .info-1 {
+        display: flex;
+        width: 730px;
+        justify-content: center;
+        align-items: center;
+        gap: 352px;
+    }
+    .footer-line {
+    width: 728px;
+    height: 1px;  
+    }
+    .rss{
+    display: flex;
+    width: 728px;
+    justify-content: space-between;
+    align-items: center;
+    }
+    .year{
+    margin: 37px 0px 0px -18px;   
+    }
+    .rschool{
+    margin: 37px 0px 0px 85px;
+    }
+    .name{
+    padding: 0px 0px 0px 21px;
+    }
+
     
 }
+
+
+
+
+
+
+
+
+
+
 
 @media (max-width: 1024px) {
     .page {width: 768px;
         overflow: hidden;
         position: relative;
-        height: 100%;  
+        height: 100%;
     }
+    
     .section {
         width: 100%;
     }
@@ -86,7 +324,6 @@
         margin: 0px -6px 0px 0px;
 }
     .nav-list {
-        display:block;
         display: inline-flex;
         flex-direction: column;
         justify-content: center;
@@ -145,7 +382,10 @@
         max-width: 768px;
         position: relative;
         margin: 0 auto;
-        
+    }
+    .fade>img{
+        width: 450px;
+        height: 560px;
     }
     .fade{
         margin: 0px 0px 0px 159px
@@ -193,13 +433,10 @@
         margin: 20px 0px 0px 0px;
     }
 
-    .dots-4-5 {
+    .dot-4, .dot-5 {
         display: flex;
         ;
     }
-
-    
-
 
     .section-favorites{
         margin: 54px 0px 0px 0px;}
@@ -207,10 +444,34 @@
         margin: 2px 0px 0px 0px; 
     }
     .books{
-        margin: 0px 0px 0px 90px;
+        margin: 0px 0px 0px -39px;
     }
     .book{
         margin: 0px 0px 40px -1px;
+        width: 550px;
+    height: 555px;
+        
+      }
+    .book>img {
+        top: 254px;
+        left: -2px;
+        width: 200px;
+    height: 300px;
+    }
+    .title-4{ 
+        width: 357px;
+    }
+    .book-description {
+        width: 357px;
+        color: #000;
+        font-family: Inter;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 40px; /* 266.667% */
+        letter-spacing: 2px;
+        text-transform: capitalize;
+        margin: 0px 15px auto 18px;
     }
     .buy-oun{
         display: block;
@@ -222,7 +483,8 @@
         margin: 21px 0px 4px -2px;
     }
     .coffee-info {
-        width: 728px;   
+        width: 728px;  
+        padding: 0;  
     }
     .Y {
         margin: 0px 0px 0px -1px;

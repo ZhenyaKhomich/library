@@ -166,7 +166,7 @@ a {
     margin-top: 34px;
 }
 
-.dots-4-5 {
+.dot-4, .dot-5 {
     display: none;
 }
 .dots_item{
@@ -181,7 +181,7 @@ a {
 	background-clip: padding-box;
 	box-sizing: content-box;
 }
-.active,.dot:hover {
+.active,.dot:hove {
     background-color:#BB945F;
 }
 .section-favorites {
