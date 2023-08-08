@@ -11,10 +11,11 @@ window.addEventListener('keydown', (e) => {
 })
 // закрытие меню при нажатии на любую область страницы
 document.getElementById("menu-burger").addEventListener("click", event => {
-event._isClickWhithMenu = true 
+event._isClickWhithMenu = true; 
+document.querySelector(".header").classList.remove("open")
 });
 document.getElementById("burger").addEventListener("click", event => {
-  event._isClickWhithMenu = true 
+  event._isClickWhithMenu = true; 
   });
   document.body.addEventListener("click", event => {
    if (event._isClickWhithMenu) return;

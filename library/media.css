@@ -1,4 +1,4 @@
-@media (max-width: 1440px) {
+@media (max-width: 1439px) {
     .page {width: 1024px;
         overflow: hidden;
         position: relative;
@@ -18,7 +18,6 @@
     .icon-profile{
         z-index: 1; 
     }
-
     .nav-list {
         display: inline-flex;
         justify-content: center;
@@ -49,8 +48,8 @@
         display: block;
     }
     .main-section {
-    display:flex;
-    background: none;
+        display:flex;
+        background: none;
     }
     .section-about{
         width: 1024px;
@@ -61,7 +60,7 @@
         margin: 0 auto;
     }
     .fade>img{
-        width: 330px;
+        width: 320px;
         height: 460px;
     }
     .dots {
@@ -80,18 +79,21 @@
     .section-favorites{
         margin: 54px 0px 0px 0px;
     }
+    .pick-options {
+        gap: 90px;
+    } 
     .pick-div {
         margin: 2px 0px 0px 0px; 
     }
     .books {
         justify-content: space-around;
         margin: 0px;
-      }
+    }
     .book {
         width: 400px;
         height:500px;
         
-      }
+    }
     .book>img {
         top: 285px;
         left: -10px;
@@ -137,10 +139,8 @@
         margin: 0px 0px 0px 8px;
     }
     .coffee-menu{
-        
         justify-content: space-between;
         gap: 60px;
-        
     }
     .drinks {
         margin: 0px 0px 0px 2px;
@@ -153,26 +153,44 @@
     } 
     .contact-info{
         display: flex;
-        flex-direction: column;
         gap: 0px;
+        padding: 20px 20px 10px 20px;
     }
     .map {
-        margin: 80px 0px 0px 15px;
+        margin: 0px 410px 0px 0px;
+        width: 480px;
+        height: 360px;
+    }
+    .contact-info-1 {
+        height: 250px;
     }
     .library-cards{
         display: flex;
-        flex-direction: column;
         align-items: center;
         margin: -1px 0px 0px -18px;
-      }  
-    
+    }  
+    .find-card {
+        width: 540px;
+        height: 386px;
+    }
+    .form-bpl {
+        width: 500px;
+        height: 272px;
+    }
+    .top {
+        width: 460px;
+        height: 66px;
+    }
+    .check-card{
+        margin: 20px 130px;
+    }
     .get-card {
         align-items: center;
         text-align: center;
         margin: 22px 0px 0px 22px;
     }
     .get-info {
-        width: 600px; 
+        width: 400px; 
         align-items: center;
         text-align: center;
         margin: 40px 0px 0px 0px;
@@ -181,62 +199,58 @@
         margin: 5px 0px 0px -15px;
     }
     .sign{
-    padding: 0px 2px 0px 0px;
+        padding: 0px 2px 0px 0px;
     }
     .footer{
         display: flex;
         width: 1024px;
         height: 250px;
-        padding: 20px;
+        padding: 0px;
         justify-content: center;
         align-items: center;
     }
     .info{
-        margin: -45px 0px 0px -21px; 
+        margin: -45px 0px 0px 0px; 
     }
     .info-2{
         display: flex;
-        width: 730px;
+        width: 1024px;
         justify-content: center;
         align-items: center;
-        gap: 478px;
+        gap: 700px;
+        margin: -20px 0px 20px;
     }
     .info-1 {
         display: flex;
-        width: 730px;
+        width: 1024px;
         justify-content: center;
         align-items: center;
-        gap: 352px;
+        gap: 570px;
+        margin: 5px 0px 0px;
     }
     .footer-line {
-    width: 728px;
-    height: 1px;  
+        width: 1000px;
+        height: 1px;  
     }
     .rss{
-    display: flex;
-    width: 728px;
-    justify-content: space-between;
-    align-items: center;
+        display: flex;
+        width: 1024px;
+        justify-content: space-between;
+        align-items: center;
     }
     .year{
-    margin: 37px 0px 0px -18px;   
+        margin: 37px 0px 0px 15px;   
     }
     .rschool{
-    margin: 37px 0px 0px 85px;
+        margin: 37px 0px 0px 0px;
     }
     .name{
-    padding: 0px 0px 0px 21px;
+        padding: 0px 0px 0px -20px;
+    }  
+    .year, .rschool, .name {
+        font-size: 20px;
     }
-
-    
 }
-
-
-
-
-
-
-
 
 
 
@@ -247,7 +261,6 @@
         position: relative;
         height: 100%;
     }
-    
     .section {
         width: 100%;
     }
@@ -287,11 +300,9 @@
         cursor: pointer;
         background-color: coral;
     }
-
     .burger-menu:hover {
         cursor: pointer;
    }
-
 /* Полоски в бугрер меню */
     .burger-menu>span:nth-child(1){
         transform: translateY(-10px);
@@ -301,7 +312,6 @@
         .burger-menu>span:nth-child(3){
         transform: translateY(10px);
     }
-
 /* Крестик */
         .header.open .burger-menu>span:nth-child(1){
         transform: translateY(0) rotate(45deg);
@@ -322,7 +332,7 @@
     }
         .header.open .burger-menu {
         margin: 0px -6px 0px 0px;
-}
+    }
     .nav-list {
         display: inline-flex;
         flex-direction: column;
@@ -357,7 +367,7 @@
     display:flex;
     background: none;
     }
-.icon-profile {
+    .icon-profile {
         margin: 31px 40px 31px 40px;
     }
     .section-about{
@@ -376,7 +386,6 @@
     .slide-4, .slide-5, .prev, .next{
         display: flex;
     }
-    
     /*создаем слайд-шоу*/
     .img-about {
         max-width: 768px;
@@ -390,56 +399,52 @@
     .fade{
         margin: 0px 0px 0px 159px
     }
-.prev, .next {
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    margin-top: -17px;
-    padding: 16px;
-    color: #000000;
-    font-weight: bold;
-    font-size: 30px;
-    transition: 0.6s ease;
-    border-radius: 0px 3px 3px 0px;
-}
-.prev:hover, .next:hover{
-    background-color: rgba(0, 0, 0, 0.6);
-}
-.next {
-    right: 82px;
-   
-}
-.prev {
-    left: 82px;
-}
-.fade {
+    .prev, .next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        margin-top: -17px;
+        padding: 16px;
+        color: #000000;
+        font-weight: bold;
+        font-size: 30px;
+        transition: 0.6s ease;
+        border-radius: 0px 3px 3px 0px;
+    }
+    .prev:hover, .next:hover{
+        background-color: rgba(0, 0, 0, 0.6);
+    }
+    .next {
+        right: 82px;  
+    }
+    .prev {
+        left: 82px;
+    }
+    .fade {
     -webkit-animation-name: fade;
     -webkit-animation-direction: 1.5s;
     animation-name: fade;
     animation-name: 1.5s;
-}
-@-webkit-keyframes fade{
+    }
+    @-webkit-keyframes fade{
     from{opacity: .4;}
     to{opacity: 1;}
-}
-@keyframes fade{
+    }
+    @keyframes fade{
     from{opacity: .4;}
     to{opacity: 1;}
-}
-
-
-
+    }
     .dots {
         margin: 20px 0px 0px 0px;
     }
-
     .dot-4, .dot-5 {
         display: flex;
-        ;
     }
-
     .section-favorites{
         margin: 54px 0px 0px 0px;}
+    .pick-options {
+        gap: 90px;
+    } 
     .pick-div {
         margin: 2px 0px 0px 0px; 
     }
@@ -449,14 +454,13 @@
     .book{
         margin: 0px 0px 40px -1px;
         width: 550px;
-    height: 555px;
-        
-      }
+        height: 555px;
+    }
     .book>img {
         top: 254px;
         left: -2px;
         width: 200px;
-    height: 300px;
+        height: 300px;
     }
     .title-4{ 
         width: 357px;
@@ -511,16 +515,40 @@
         flex-direction: column;
         gap: 0px;
     }
+    .contact-info{
+        display: flex;
+        gap: 0px;
+        padding: 20px 20px 40px 20px;
+    }
     .map {
         margin: 80px 0px 0px 15px;
+        width: 696px;
+        height: 414px;
+    }
+    .contact-info-1 {
+        height: 260px;
     }
     .library-cards{
         display: flex;
         flex-direction: column;
         align-items: center;
         margin: -1px 0px 0px -18px;
-      }  
-    
+    }  
+    .find-card {
+        width: 600px;
+        height: 386px;
+    }
+    .form-bpl {
+        width: 560px;
+        height: 272px;
+    }
+    .top {
+        width: 520px;
+        height: 66px;
+    }
+    .check-card{
+        margin: 20px 160px;
+    }
     .get-card {
         align-items: center;
         text-align: center;
@@ -530,13 +558,13 @@
         width: 600px; 
         align-items: center;
         text-align: center;
-        margin: 40px 0px 0px 0px;
+        margin: 40px 0px 0px -1px;
     }
     .sign-log{
         margin: 5px 0px 0px -15px;
     }
     .sign{
-    padding: 0px 2px 0px 0px;
+        padding: 0px 2px 0px 0px;
     }
     .footer{
         display: flex;
@@ -555,6 +583,7 @@
         justify-content: center;
         align-items: center;
         gap: 478px;
+        margin: -20px 20px 20px;
     }
     .info-1 {
         display: flex;
@@ -562,39 +591,392 @@
         justify-content: center;
         align-items: center;
         gap: 352px;
+        margin: 5px 20px 0px;
     }
     .footer-line {
-    width: 728px;
-    height: 1px;  
+        width: 728px;
+        height: 1px;  
     }
     .rss{
-    display: flex;
-    width: 728px;
-    justify-content: space-between;
-    align-items: center;
+        display: flex;
+        width: 728px;
+        justify-content: space-between;
+        align-items: center;
     }
     .year{
-    margin: 37px 0px 0px -18px;   
+        margin: 37px 0px 0px -18px;   
     }
     .rschool{
-    margin: 37px 0px 0px 85px;
+        margin: 37px 0px 0px 85px;
     }
     .name{
-    padding: 0px 0px 0px 21px;
+        padding: 0px 0px 0px 21px;
+    }
+    .year, .rschool, .name {
+        font-size: 20px;
     }
  }
       
         
-
-
-
-
-
-
 @media (max-width: 767px) {
     .page {width: 640px;
+        overflow: hidden;
+        position: relative;
+        height: 100%;
     }
-}
+    .section {
+        width: 100%;
+    }
+    .container-head{
+        display: flex;
+        width: 640px;
+        height: 90px;
+        padding: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+    .icon-profile{
+        z-index: 1; 
+    }
+    .nav-header{
+        position: absolute;
+        top: 0;
+        right: -332px;
+        width: 332px;
+        height: 570px;
+        background: rgb(0, 0, 0); 
+        visibility: hidden;
+        z-index: 1;
+        text-align: center;
+        padding: 100px 0px 0px 0px;
+        transition: transform .5s, visibility .5s;/* меню выдвигается плавно*/
+    }
+    .burger-menu>span {
+        position: absolute;
+        width: 45px;
+        height: 2px;
+        background-color: #FFF;
+        left: 0px;
+        transition: opacity .10s, transform .5s;
+   }
+    .burger-menu:hover span {
+        cursor: pointer;
+        background-color: coral;
+    }
+    .burger-menu:hover {
+        cursor: pointer;
+   }
+/* Полоски в бугрер меню */
+    .burger-menu>span:nth-child(1){
+        transform: translateY(-10px);
+    }
+        .burger-menu>span:nth-child(2){
+    }
+        .burger-menu>span:nth-child(3){
+        transform: translateY(10px);
+    }
+/* Крестик */
+        .header.open .burger-menu>span:nth-child(1){
+        transform: translateY(0) rotate(45deg);
+    }
+        .header.open .burger-menu>span:nth-child(2){
+        opacity: 0;
+    }
+        .header.open .burger-menu>span:nth-child(3){
+        transform: translateY(0) rotate(-45deg);
+    }
+        .header.open .nav-header{
+        transform: translateX(-100%);
+        visibility: visible;
+    }
+/* сдвиг иконки и крестика при выдвижении бургер меню*/
+       .header.open .icon-profile{
+        margin: 0px 32px 0px 0px;
+    }
+        .header.open .burger-menu {
+        margin: 0px -6px 0px 0px;
+    }
+    .nav-list {
+        display: inline-flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+    .burger-menu{
+        display: block;
+    }
+    .brooclin-head{
+        color: #FFF;
+        font-family: Forum;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 50px; /* 166.667% */
+        letter-spacing: 0.6px;
+        margin: 22px auto 20px 0px;
+    }
+   .main-section>img{
+        width: 640px;
+        height: 600px;
+    }
+    .welcome-img-2 {
+        display: block;
+    }
+    .welcome-img-1 {
+        display: none;
+    }
+    .main-section {
+    display:flex;
+    background: none;
+    }
+    .icon-profile {
+        margin: 31px 40px 31px 40px;
+    }
+    .section-about{
+        width: 640px;
+    }
+    .section-description{
+        color: #000;
+        text-align: center;
+        font-family: Inter;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 40px; /* 200% */
+        margin: 40px 40px 20px;
+    }
+    .slide-4, .slide-5, .prev, .next{
+        display: flex;
+    }
+    /*создаем слайд-шоу*/
+    .img-about {
+        max-width: 640px;
+        position: relative;
+        margin: 0 auto;
+    }
+    .fade>img{
+        width: 350px;
+        height: 460px;
+    }
+    .fade{
+        margin: 0px 0px 0px 150px
+    }
+    .prev, .next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        margin-top: -17px;
+        padding: 16px;
+        color: #000000;
+        font-weight: bold;
+        font-size: 30px;
+        transition: 0.6s ease;
+        border-radius: 0px 3px 3px 0px;
+    }
+    .prev:hover, .next:hover{
+        background-color: rgba(0, 0, 0, 0.6);
+    }
+    .next {
+        right: 82px;  
+    }
+    .prev {
+        left: 82px;
+    }
+    .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-direction: 1.5s;
+    animation-name: fade;
+    animation-name: 1.5s;
+    }
+    @-webkit-keyframes fade{
+    from{opacity: .4;}
+    to{opacity: 1;}
+    }
+    @keyframes fade{
+    from{opacity: .4;}
+    to{opacity: 1;}
+    }
+    .dots {
+        margin: 20px 0px 0px 0px;
+    }
+    .dot-4, .dot-5 {
+        display: flex;
+    }
+    .section-favorites{
+        margin: 54px 0px 0px 0px;}
+    .pick-options {
+        gap: 22px;
+    } 
+    .pick-div {
+        margin: 2px 0px 0px 0px; 
+    }
+    .books{
+        margin: 0px 0px 0px -39px;
+    }
+    .book{
+        margin: 0px 0px 40px -1px;
+        width: 550px;
+        height: 555px;
+    }
+    .book>img {
+        top: 254px;
+        left: -2px;
+        width: 200px;
+        height: 300px;
+    }
+    .title-4{ 
+        width: 357px;
+    }
+    .book-description {
+        width: 357px;
+        color: #000;
+        font-family: Inter;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 40px; /* 266.667% */
+        letter-spacing: 2px;
+        text-transform: capitalize;
+        margin: 0px 15px auto 18px;
+    }
+    .buy-oun{
+        display: block;
+    }
+    .own{
+        display: none;
+    }
+    .section-coffee{ 
+        margin: 21px 0px 4px -2px;
+    }
+    .coffee-info {
+        width: 600px;  
+        padding: 0;  
+    }
+    .Y {
+        margin: 0px 0px 0px -1px;
+    }
+    .our{
+        margin: 0px 0px 0px 8px;
+    }
+    .coffee-menu{
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+    .drinks {
+        margin: 0px 0px 0px 2px;
+    }
+    .deserts {
+        margin: 0px 0px 20px 110px;
+    }       
+    .our-contacts{
+        margin: 0px 0px 0px 1px;
+    } 
+    .contact-info{
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+    }
+    .contact-info{
+        display: flex;
+        gap: 0px;
+        padding: 20px 20px 40px 20px;
+    }
+    .map {
+        margin: 20px 0px 0px 0px;
+        width: 600px;
+        height: 414px;
+    }
+    .contact-info-1 {
+        height: 260px;
+    }
+    .library-cards{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: -1px 0px 0px -18px;
+    }  
+    .find-card {
+        width: 600px;
+        height: 386px;
+    }
+    .form-bpl {
+        width: 560px;
+        height: 272px;
+    }
+    .top {
+        width: 520px;
+        height: 66px;
+    }
+    .check-card{
+        margin: 20px 160px;
+    }
+    .get-card {
+        align-items: center;
+        text-align: center;
+        margin: 22px 0px 0px 22px;
+    }
+    .get-info {
+        width: 600px; 
+        align-items: center;
+        text-align: center;
+        margin: 40px 0px 0px -1px;
+    }
+    .sign-log{
+        margin: 5px 0px 0px -15px;
+    }
+    .sign{
+        padding: 0px 2px 0px 0px;
+    }
+    .footer{
+        display: flex;
+        width: 640px;
+        height: 250px;
+        padding: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+    .info{
+        margin: -45px 0px 0px -21px; 
+    }
+    .info-2{
+        width: 600px;
+        justify-content: space-between;
+        align-items: center;
+        gap: 300px;
+        margin: -20px 20px 20px;
+    }
+    .info-1 {
+        width: 600px;
+        justify-content: space-between;
+        align-items: center;
+        gap: 100px;
+        margin: 5px 20px 0px;
+    }
+    .footer-line {
+        width: 600px;
+        height: 1px;  
+    }
+    .rss{
+        display: flex;
+        width: 640px;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .year{
+        margin: 37px 0px 0px px;   
+    }
+    .rschool{
+        margin: 37px 0px 0px 20px;
+    }
+    .name{
+        padding: 0px 0px 0px 15px;
+    }
+    .year, .rschool, .name {
+        font-size: 16px;
+    }
+ }
 
 @media (max-width: 640px) {
     .page {width: none;
