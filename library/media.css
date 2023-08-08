@@ -298,7 +298,6 @@
    }
     .burger-menu:hover span {
         cursor: pointer;
-        background-color: coral;
     }
     .burger-menu:hover {
         cursor: pointer;
@@ -661,7 +660,6 @@
    }
     .burger-menu:hover span {
         cursor: pointer;
-        background-color: coral;
     }
     .burger-menu:hover {
         cursor: pointer;
