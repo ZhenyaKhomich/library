@@ -8,6 +8,10 @@ body {
     max-width: 1440px;
     margin: 0 auto;
 }
+.page{
+    margin: 0 auto;
+}
+
 * {
     box-sizing: border-box;
 }
@@ -18,7 +22,11 @@ body {
 html {
    scroll-behavior: smooth;
 }
-.header {
+.page {
+    width: 1440px;
+     
+}
+.container-head {
     display: flex;
     background: #0C0C0E;
     width: 1440px;
@@ -45,6 +53,19 @@ html {
     font-style: normal;
     font-weight: 400;
     line-height: 50px; /* 250% */  
+
+    /* Кнопка бургер меню */
+}
+.burger-menu{
+    margin: 0px 0px 0px 0px;
+    display: none;
+    position: relative;
+    width: 45px;
+    height: 20px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    z-index: 2;
 }
 .nav-list {
     display: inline-flex;
@@ -68,6 +89,12 @@ a {
     flex-shrink: 0;
     margin: 31px 20px 31px 40px;
 }
+.icon-profile:hover {
+    cursor: pointer;
+    background-color: coral;
+    border-radius: 100%;
+}
+
 .main-section {
     display:flex;
     background: url(<path-to-image>), lightgray 50% / cover no-repeat;
@@ -92,6 +119,9 @@ a {
     background: #0C0C0E;
     text-align:center
 }
+.welcome-img-2 {
+    display: none;
+}
  .section-title {
     text-align: center;
     margin: 21px 0px 20px 1px;
@@ -104,7 +134,6 @@ a {
     letter-spacing: 2px;
     text-transform: capitalize;
  }
-
 .section-description {
     text-align: center;
     color: #000;
@@ -126,6 +155,10 @@ a {
     gap: 25px;
     margin: 0 auto;
 }
+.slide-4, .slide-5, .prev, .next {
+    display: none;
+}
+
 .dots {
     display: flex;
     text-align: center;
@@ -133,6 +166,9 @@ a {
     margin-top: 34px;
 }
 
+.dot-4, .dot-5 {
+    display: none;
+}
 .dots_item{
     cursor: pointer;
     display: flex;
@@ -145,12 +181,12 @@ a {
 	background-clip: padding-box;
 	box-sizing: content-box;
 }
-.dots_item:hover {
+.active,.dot:hover {
     background-color:#BB945F;
 }
 .section-favorites {
     width: 1440px;
-    height: 1439px;
+    
     margin: 56px 0 0 0;
 }
 .dots_item:hover, .dot:hover{
@@ -325,6 +361,9 @@ span{
     line-height: normal;
     letter-spacing: 1px;
 }
+.buy-oun{
+    display: none;
+}
 form>.buy {
     width: 75px;
     height: 30px;
@@ -363,9 +402,10 @@ form>.own {
     display: flex;
     flex-direction: column;
     padding: 0px 20px 40px 20px;
-    margin-bottom: 40px;
+    margin: 20px 20px 40px 0px;
     flex-wrap: wrap;
     justify-content: space-between;
+    
 }
 .coffee-menu{
     display: flex;
@@ -424,6 +464,7 @@ form>.own {
     margin-top: 32px;
     margin-left: 3px;
 }
+.our{margin: 0px 0px 0px 8px;}
 .text-coffee {
     color: #000;
     font-family: Inter;
@@ -479,7 +520,7 @@ form>.own {
 }
 .contact-info {
     display: flex;
-    width: 1440px;
+    
     padding: 20px 20px 40px 20px;
     justify-content: space-between;
     gap: 199px;
@@ -592,7 +633,7 @@ form>.own {
 }
 .check-card:hover {
     background-color:#BB945F;
-    
+    border: 1px solid #BB945F;
     transition: background-color 1s ease;
 }
 input[type=text] {
@@ -634,7 +675,6 @@ input[type=text] {
 }
 .library-cards{
     display: flex;
-
 }
 .get{
     color: #000;
@@ -793,6 +833,9 @@ input[type=text] {
     gap: 1147px;
     margin: -20px 20px 20px 20px;
 }
+.info-2>ul>li{
+    list-style-type: none;
+  }
 
 .nav-list-footer{
     display: flex;
