@@ -181,7 +181,7 @@ a {
 	background-clip: padding-box;
 	box-sizing: content-box;
 }
-.active,.dot:hove {
+.active,.dot:hover {
     background-color:#BB945F;
 }
 .section-favorites {
