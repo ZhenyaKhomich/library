@@ -116,10 +116,10 @@
         margin: 0px 15px auto 18px;
     }
     .buy-oun{
-        display: block;
+        display: none;
     }
     .own{
-        display: none;
+        display: block;
     }
     .section-coffee{ 
         margin: 21px 0px 4px -2px;
@@ -157,7 +157,7 @@
         padding: 20px 20px 10px 20px;
     }
     .map {
-        margin: 0px 410px 0px 0px;
+        margin: 0px 10px 0px 0px;
         width: 480px;
         height: 360px;
     }
@@ -273,7 +273,8 @@
         align-items: center;
     }
     .icon-profile{
-        z-index: 1; 
+        z-index: 1;
+        margin: 31px 40px 31px 40px; 
     }
     .nav-header{
         position: absolute;
@@ -281,7 +282,7 @@
         right: -332px;
         width: 332px;
         height: 570px;
-        background: rgb(0, 0, 0); 
+        background: #0C0C0E; 
         visibility: hidden;
         z-index: 1;
         text-align: center;
@@ -327,10 +328,10 @@
     }
 /* сдвиг иконки и крестика при выдвижении бургер меню*/
        .header.open .icon-profile{
-        margin: 0px 32px 0px 0px;
+        margin: 0px 40px 0px 0px;
     }
         .header.open .burger-menu {
-        margin: 0px -6px 0px 0px;
+        margin: 0px 0px 0px 0px;
     }
     .nav-list {
         display: inline-flex;
@@ -338,6 +339,7 @@
         justify-content: center;
         align-items: center;
         gap: 30px;
+        margin: 0px 3px 0px 0px;
     }
     .burger-menu{
         display: block;
@@ -365,9 +367,6 @@
     .main-section {
     display:flex;
     background: none;
-    }
-    .icon-profile {
-        margin: 31px 40px 31px 40px;
     }
     .section-about{
         width: 768px;
@@ -477,10 +476,10 @@
         margin: 0px 15px auto 18px;
     }
     .buy-oun{
-        display: block;
+        display: none;
     }
     .own{
-        display: none;
+        display: block;
     }
     .section-coffee{ 
         margin: 21px 0px 4px -2px;
@@ -643,7 +642,7 @@
         right: -332px;
         width: 332px;
         height: 570px;
-        background: rgb(0, 0, 0); 
+        background: #0C0C0E;
         visibility: hidden;
         z-index: 1;
         text-align: center;
@@ -688,11 +687,11 @@
         visibility: visible;
     }
 /* сдвиг иконки и крестика при выдвижении бургер меню*/
-       .header.open .icon-profile{
-        margin: 0px 32px 0px 0px;
+    .header.open .icon-profile{
+        margin: 0px 40px 0px 0px;
     }
-        .header.open .burger-menu {
-        margin: 0px -6px 0px 0px;
+    .header.open .burger-menu {
+        margin: 0px 0px 0px 0px;
     }
     .nav-list {
         display: inline-flex;
@@ -700,6 +699,7 @@
         justify-content: center;
         align-items: center;
         gap: 30px;
+        margin: 0px 3px 0px 0px;
     }
     .burger-menu{
         display: block;
@@ -839,10 +839,10 @@
         margin: 0px 15px auto 18px;
     }
     .buy-oun{
-        display: block;
+        display: none;
     }
     .own{
-        display: none;
+        display: block;
     }
     .section-coffee{ 
         margin: 21px 0px 4px -2px;
